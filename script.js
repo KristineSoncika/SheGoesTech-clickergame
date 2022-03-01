@@ -6,12 +6,11 @@ let counter = 0;
 function clickButton() {
   cookieCount.innerHTML = `You currently have ${counter} cookies`;
   counter++;
-
-  setTimeout(() => {
-    cookieCount.style.display = "none";
-    result.style.display = "block";
-    result.innerHTML = `Congratulations! You have won ${counter} cookies!`;
-  }, 5000);
 }
+setTimeout(() => {
+  cookieCount.style.display = "none";
+  result.style.display = "block";
+  result.innerHTML = `Congratulations! You have won ${counter} cookies!`;
+}, 10000);
 
 button.addEventListener("click", clickButton);
