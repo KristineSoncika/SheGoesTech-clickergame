@@ -1,0 +1,40 @@
+body {
+  font-family: monospace;
+  background-color: bisque;
+}
+
+div {
+  width: 50%;
+  margin: 20rem auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+#result {
+  display: none;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+button {
+  border: none;
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: aquamarine;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: rgb(70, 204, 159);
+}
